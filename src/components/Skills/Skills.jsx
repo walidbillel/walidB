@@ -1,7 +1,7 @@
-import React from 'react';
-import Skill from '../../helpers/Skill';
-import { FaShopify } from 'react-icons/fa';
-import { FiFigma } from 'react-icons/fi';
+import React from "react";
+import Skill from "../../helpers/Skill";
+import { FaShopify } from "react-icons/fa";
+import { FiFigma } from "react-icons/fi";
 import {
   DiMongodb,
   DiPhotoshop,
@@ -16,84 +16,108 @@ import {
   DiGit,
   DiJqueryLogo,
   DiHeroku,
-} from 'react-icons/di';
+} from "react-icons/di";
+
+import { SiNextDotJs, SiPrismic, SiStrapi, SiNetlify } from "react-icons/si";
 
 const skillsData = [
   {
-    skillName: 'JavaScript',
+    skillName: "JavaScript",
     skillIcon: <DiJavascript1 className="tech-icons" />,
-    color: ' #FFFF00 ',
+    color: " #FFFF00 ",
   },
 
   {
-    skillName: 'HTML5',
+    skillName: "HTML5",
     skillIcon: <DiHtml5 className="tech-icons" />,
-    color: '#FF4500 ',
+    color: "#FF4500 ",
   },
   {
-    skillName: 'CSS3',
+    skillName: "CSS3",
     skillIcon: <DiCss3Full className="tech-icons" />,
-    color: ' #09B3FF ',
+    color: " #09B3FF ",
   },
   {
-    skillName: 'jQuery',
+    skillName: "jQuery",
     skillIcon: <DiJqueryLogo className="tech-icons" />,
-    color: ' #514E9A ',
+    color: " #514E9A ",
   },
   {
-    skillName: 'Node JS',
+    skillName: "Node JS",
     skillIcon: <DiNodejs className="tech-icons" />,
-    color: '#05B459 ',
+    color: "#05B459 ",
   },
   {
-    skillName: 'NPM',
+    skillName: "Next",
+    skillIcon: <SiNextDotJs className="tech-icons" />,
+    color: "#473660",
+  },
+  {
+    skillName: "NPM",
     skillIcon: <DiNpm className="tech-icons" />,
-    color: '#D83D07 ',
+    color: "#D83D07 ",
   },
   {
-    skillName: 'React JS',
+    skillName: "React JS",
     skillIcon: <DiReact className="tech-icons" />,
-    color: ' #6AA1F9 ',
+    color: " #6AA1F9 ",
   },
   {
-    skillName: 'Mongo DB',
+    skillName: "Mongo DB",
     skillIcon: <DiMongodb className="tech-icons" />,
-    color: '#0DB806 ',
+    color: "#0DB806 ",
   },
   {
-    skillName: 'MySQL',
+    skillName: "MySQL",
     skillIcon: <DiMysql className="tech-icons" />,
-    color: '#0170FA ',
+    color: "#0170FA ",
   },
   {
-    skillName: 'Shopify',
+    skillName: "Shopify",
     skillIcon: <FaShopify className="tech-icons" />,
-    color: '#01C332 ',
+    color: "#01C332 ",
   },
   {
-    skillName: 'Git',
+    skillName: "Prismic",
+    skillIcon: <SiPrismic className="tech-icons" />,
+    color: "#473660 ",
+  },
+  {
+    skillName: "Strapi",
+    skillIcon: <SiStrapi className="tech-icons" />,
+    color: "#514E9A ",
+  },
+
+  {
+    skillName: "Git",
     skillIcon: <DiGit className="tech-icons" />,
-    color: '#B0E711 ',
+    color: "#B0E711 ",
   },
   {
-    skillName: 'Heroku',
+    skillName: "Heroku",
     skillIcon: <DiHeroku className="tech-icons" />,
-    color: '#0813A4 ',
+    color: "#0813A4 ",
   },
   {
-    skillName: 'Illustrator',
+    skillName: "Netlify",
+    skillIcon: <SiNetlify className="tech-icons" />,
+    color: "#BFC1CA ",
+  },
+
+  {
+    skillName: "Illustrator",
     skillIcon: <DiIllustrator className="tech-icons" />,
-    color: '#FEB500 ',
+    color: "#FEB500 ",
   },
   {
-    skillName: 'Photoshop',
+    skillName: "Photoshop",
     skillIcon: <DiPhotoshop className="tech-icons" />,
-    color: '#022D68 ',
+    color: "#022D68 ",
   },
   {
-    skillName: 'Figma',
+    skillName: "Figma",
     skillIcon: <FiFigma className="tech-icons" />,
-    color: '#473660 ',
+    color: "#473660 ",
   },
 ];
 

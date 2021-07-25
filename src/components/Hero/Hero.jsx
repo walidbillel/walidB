@@ -1,14 +1,25 @@
-import React from 'react';
-import TypeWriter from '../../helpers/TypeWriter';
-
+import React from "react";
+import TypeWriter from "../../helpers/TypeWriter";
+import { useState, useEffect } from "react";
 const Hero = () => {
   const msgs = [
-    'A Full Stack Developer',
-    'A Shopify Expert',
-    'A Graphic Designer',
-    'A Problem Solver',
-    'A Life Long Learner',
+    "A Full Stack Developer",
+    "A Shopify Expert",
+    "A Graphic Designer",
+    "A Problem Solver",
+    "A Life Long Learner",
   ];
+  const [scrollPostionIni, setScrollPositionIni] = useState(0);
+  useEffect(() => {
+    if (window) {
+      const handleScroll = () => {
+        setScrollPositionIni(window.scrollY);
+      };
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }
+  }, []);
+
   return (
     <section>
       <div className="hero">
@@ -27,6 +38,14 @@ const Hero = () => {
               <span>resum&eacute;</span>
             </button>
           </a>
+        </div>
+        <div
+          style={{
+            opacity: 350 > scrollPostionIni > 0 ? 1 : 0,
+          }}
+          className="jsx-123"
+        >
+          <p className="hero__scrollDown">Scroll down</p>
         </div>
       </div>
     </section>

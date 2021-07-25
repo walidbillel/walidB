@@ -6,7 +6,7 @@
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: 'ZCOOL XiaoWei', serif;
+    font-family: "ZCOOL XiaoWei", serif;
   }
 
   &__bg {
@@ -35,8 +35,8 @@
       button {
         padding: 15px;
         text-transform: uppercase;
-        
-        font-family: 'ZCOOL XiaoWei', serif;
+
+        font-family: "ZCOOL XiaoWei", serif;
         width: 40%;
         border: none;
         font-size: 20px;
@@ -49,7 +49,7 @@
           display: inline-block;
           position: relative;
           &:after {
-            content: '\00bb';
+            content: "\00bb";
             position: absolute;
             opacity: 0;
             top: 0;
@@ -77,6 +77,7 @@
   .contact {
     &__form {
       &--input {
+        width: 80%;
         button {
           width: 100%;
         }

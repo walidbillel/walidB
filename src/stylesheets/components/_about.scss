@@ -1,60 +1,39 @@
 .about {
-  padding: 30px;
-
   &__title {
     letter-spacing: 5px;
     text-align: center;
     padding: 30px;
     text-transform: uppercase;
-    font-family: 'ZCOOL XiaoWei', serif;
+    font-family: "ZCOOL XiaoWei", serif;
   }
 
   &__bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 
-    &--stack {
-      padding: 90px;
-      border-radius: 200px 0 200px 0;
-      width: 90%;
-      margin-top: 30px;
-      margin-left: 50px;
-      background-color: $primary-color;
-      position: absolute;
-
-      z-index: -1;
-    }
-
-    &--shopify {
-      position: absolute;
-      right: 200px;
-      z-index: 500;
-    }
-
-    &--storetasker {
-      content: url(../../assets/storetasker.png);
-      transform: scale(0.7);
-      transition: all 0.4s cubic-bezier(0, 0.9, 0.3, 1.2);
-      &:hover {
-        transform: scale(0.9) rotate(-25deg);
-      }
-    }
-
     &--shopifyLink {
-      @include centerAbsolute;
+      color: $primary-color;
       text-decoration: none;
+    }
+
+    &--backBorder {
+      border-top: 35px solid $primary-color;
+      width: 80%;
     }
 
     &--info {
       @include boxShadow;
       margin: auto;
-      padding: 60px;
-      width: 70%;
-      font-family: 'Telex', sans-serif;
+      padding: 40px;
+      width: 100%;
+      font-family: "Telex", sans-serif;
       opacity: 0.9;
       font-size: 18px;
+      line-height: 28px;
       letter-spacing: 1px;
       background-color: $secondary-color;
-      // color: $color-white;
       a {
         text-decoration: none;
         color: $primary-color;
@@ -85,7 +64,8 @@
         }
       }
       &--info {
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 24px;
         padding: 20px;
       }
     }

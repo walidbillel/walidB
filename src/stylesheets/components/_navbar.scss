@@ -1,6 +1,6 @@
 // nav styling
 .navigation {
-  padding-top: 20px;
+  padding: 20px;
 
   &__list {
     display: flex;
@@ -15,7 +15,7 @@
   &__link {
     font-size: 17px;
     text-transform: uppercase;
-    font-family: 'Telex', sans-serif;
+    font-family: "Telex", sans-serif;
     text-decoration: none;
     padding: 15px;
     color: $color-black;
@@ -23,7 +23,7 @@
     &:hover,
     &:active {
       color: $secondary-color;
-      font-size: 21px;
+      font-size: 19px;
       cursor: pointer;
     }
   }

@@ -20,6 +20,9 @@ body.light-mode {
     &__info {
       color: $color-black;
     }
+    &__btn {
+      border: 1px solid $color-black;
+    }
   }
 
   .skills {
@@ -36,6 +39,7 @@ body.light-mode {
     }
     button {
       color: $color-black;
+      border: 1px solid $color-black;
     }
   }
 
@@ -81,7 +85,9 @@ body.dark-mode {
     &__info {
       color: $color-white;
     }
-
+    &__scrollDown {
+      color: $color-white;
+    }
     &__btn {
       color: $color-white;
       &:hover {
@@ -94,8 +100,8 @@ body.dark-mode {
       color: $color-white;
     }
     &__bio {
-      &--stack {
-        background-color: $secondary-color;
+      &--backBorder {
+        border-top: 25px solid $secondary-color;
       }
       &--info {
         background-color: $primary-color;

@@ -12,7 +12,7 @@
     top: 0;
     bottom: 0;
     left: 0;
-    font-family: 'Telex', sans-serif;
+    font-family: "Telex", sans-serif;
     right: 0;
     width: 250px;
     height: 350px;
@@ -40,10 +40,11 @@
       text-shadow: 0 0 5px #000;
       margin-top: -1.5em;
       margin-bottom: 1.5em;
-      font-family: 'ZCOOL XiaoWei', serif;
+      font-family: "ZCOOL XiaoWei", serif;
     }
     p {
       padding: 20px;
+      line-height: 24px;
       letter-spacing: 1px;
       font-size: 16px;
       font-weight: lighter;
@@ -75,15 +76,15 @@
       margin: 20px;
       background-color: inherit;
       color: $color-black;
-      font-family: 'ZCOOL XiaoWei', serif;
+      font-family: "ZCOOL XiaoWei", serif;
       letter-spacing: 3px;
-      border: none;
+      border: 1px solid $color-white;
       span {
         cursor: pointer;
         display: inline-block;
         position: relative;
         &:after {
-          content: '\00bb';
+          content: "\00bb";
           position: absolute;
           opacity: 0;
           top: 0;
