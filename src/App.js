@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Navbar,
   SocialMedia,
@@ -10,8 +10,8 @@ import {
   Graphics,
   Contact,
   Footer,
-} from './components';
-import analytics from './helpers/analytics';
+} from "./components";
+import analytics from "./helpers/analytics";
 
 function App() {
   analytics();

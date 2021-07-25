@@ -101,7 +101,7 @@ body.dark-mode {
     }
     &__bio {
       &--backBorder {
-        border-top: 25px solid $secondary-color;
+        border-top: 35px solid $secondary-color;
       }
       &--info {
         background-color: $primary-color;
@@ -131,11 +131,11 @@ body.dark-mode {
     button {
       color: $color-white;
       &:hover {
-        background-color: $primary-color-dark;
+        background-color: $primary-color;
       }
     }
     .front {
-      background: $primary-color-dark;
+      background: $primary-color;
       color: $color-white;
     }
   }
@@ -163,6 +163,7 @@ body.dark-mode {
         }
         button {
           color: $color-white;
+          border: 1px solid $color-white;
           &:hover {
             background-color: $primary-color;
           }

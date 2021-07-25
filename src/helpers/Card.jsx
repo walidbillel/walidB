@@ -15,16 +15,20 @@ const Card = ({ title, description, technologies, gitHub, appLink, image }) => {
         <h4>Technologies</h4>
         <p>{technologies}</p>
 
-        <a href={gitHub} target="_blank" rel="noopener noreferrer">
-          <button>
-            <span>Code</span>
-          </button>
-        </a>
-        <a href={appLink} target="_blank" rel="noopener noreferrer">
-          <button>
-            <span>Live</span>
-          </button>
-        </a>
+        {gitHub && (
+          <a href={gitHub} target="_blank" rel="noopener noreferrer">
+            <button>
+              <span>Code</span>
+            </button>
+          </a>
+        )}
+        {appLink && (
+          <a href={appLink} target="_blank" rel="noopener noreferrer">
+            <button>
+              <span>Live</span>
+            </button>
+          </a>
+        )}
       </div>
     </div>
   );
@@ -34,8 +38,8 @@ Card.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   technologies: PropTypes.string.isRequired,
-  gitHub: PropTypes.string.isRequired,
-  appLink: PropTypes.string.isRequired,
+  gitHub: PropTypes.string,
+  appLink: PropTypes.string,
   image: PropTypes.string.isRequired,
 };
 

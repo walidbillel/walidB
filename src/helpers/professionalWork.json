@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "projectName": "LLF Inc.",
+        "description": "A funding website in 3 languages for multi billion company Lives and Livelihoods Fund ",
+        "technologies": "Next, Strapi cms, GraphQL, React",
+        "image": "./projects-img/LLF.jpg"
+    },
+    {
+        "id": 2,
+        "projectName": "myCharge Inc.",
+        "description": "Developed customized sections for the client along with third apps implementation.",
+        "technologies": "HTML, Liquid, Javascript",
+        "image": "./projects-img/myCharge.jpg",
+        "appLink": "https://mycharge.com/"
+    },
+    {
+        "id": 3,
+        "projectName": "Actively Black",
+        "description": "Created several customized pages for the client as well as some SEO work",
+        "technologies": "HTML, Liquid, Javascript, SEO",
+        "image": "./projects-img/activeBlack.jpg",
+        "appLink": "https://activelyblack.com/"
+    },
+    {
+        "id": 4,
+        "projectName": "Unoro Inc.",
+        "description": "Created a Shopify store from scratch with a friend of mine",
+        "technologies": "HTML, SCSS, Liquid, Javascript, Third Apps, SEO",
+        "image": "./projects-img/unoro.jpg",
+        "appLink": "https://unoro.com/"
+    }
+]
