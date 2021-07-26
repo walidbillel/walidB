@@ -6,7 +6,6 @@ import {
   DarkModeToggle,
   About,
   Projects,
-  Skills,
   Graphics,
   Contact,
   Footer,
@@ -22,7 +21,6 @@ function App() {
       <SocialMedia />
       <Hero />
       <About />
-      {/* <Skills /> */}
       <Projects />
       <Graphics />
       <Contact />
