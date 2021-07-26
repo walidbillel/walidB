@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-scroll';
+import React from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className="navigation__item">
+          {/* <li className="navigation__item">
             <Link
               className="navigation__link"
               to="skills"
@@ -25,7 +25,7 @@ const Navbar = () => {
             >
               Skills
             </Link>
-          </li>
+          </li> */}
           <li className="navigation__item">
             <Link
               className="navigation__link"

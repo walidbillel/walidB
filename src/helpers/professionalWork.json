@@ -9,7 +9,7 @@
     {
         "id": 2,
         "projectName": "myCharge Inc.",
-        "description": "Developed customized sections for the client along with third apps implementation.",
+        "description": "Customized the e-commerce store and implemented email marketing app Klaviyo",
         "technologies": "HTML, Liquid, Javascript",
         "image": "./projects-img/myCharge.jpg",
         "appLink": "https://mycharge.com/"
@@ -17,7 +17,7 @@
     {
         "id": 3,
         "projectName": "Actively Black",
-        "description": "Created several customized pages for the client as well as some SEO work",
+        "description": "Designed and developed several customized pages for the client as well as SEO work",
         "technologies": "HTML, Liquid, Javascript, SEO",
         "image": "./projects-img/activeBlack.jpg",
         "appLink": "https://activelyblack.com/"
@@ -25,7 +25,7 @@
     {
         "id": 4,
         "projectName": "Unoro Inc.",
-        "description": "Created a Shopify store from scratch with a friend of mine",
+        "description": "Developed an e-commerce website for the client with latest technologies and shopify API",
         "technologies": "HTML, SCSS, Liquid, Javascript, Third Apps, SEO",
         "image": "./projects-img/unoro.jpg",
         "appLink": "https://unoro.com/"

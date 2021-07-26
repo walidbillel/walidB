@@ -8,7 +8,7 @@ const Projects = () => {
     <>
       <section className="projects">
         <div className="projects__title">
-          <h2>Professional Work</h2>
+          <h2>Featured Professional Work</h2>
         </div>
         <div className="projects__tabs">
           {professionalWork.map((project, i) => (
@@ -24,7 +24,7 @@ const Projects = () => {
           ))}
         </div>
         <div className="projects__title">
-          <h2>Expirimental Projects</h2>
+          <h2>Featured Expirimental Projects</h2>
         </div>
         <div className="projects__tabs">
           {projects.map((project, i) => (

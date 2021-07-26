@@ -22,7 +22,7 @@ function App() {
       <SocialMedia />
       <Hero />
       <About />
-      <Skills />
+      {/* <Skills /> */}
       <Projects />
       <Graphics />
       <Contact />
